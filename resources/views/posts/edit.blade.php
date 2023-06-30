@@ -4,6 +4,10 @@
         <meta charset="utf-8">
         <title>Blog</title>
     </head>
+     <x-app-layout>
+    <x-slot name="header">
+        球団名
+    </x-slot>
     <body>
         <h1 class="title">編集画面</h1>
         <div class="content">
@@ -23,4 +27,5 @@
         </div>
         <a href="/">戻る</a>
     </body>
+    </x-app-layout>
 </html>
